@@ -10,7 +10,7 @@ import pandas as pd
 
 # Create your views here.
 
-filePath = "/Users/rahulsharma/PycharmProjects/keywordSearch/keywordSearch/keywordSearchapi/word_search.tsv"
+filePath = "word_search.tsv"
 
 def index_page(request):
     return render(request, 'index.html')
